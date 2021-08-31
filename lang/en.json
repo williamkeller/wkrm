@@ -1,0 +1,22 @@
+{
+  "WKRM.AbilityStr": "Strength",
+  "WKRM.AbilityCon": "Constitution",
+  "WKRM.AbilityDex": "Dexterity",
+  "WKRM.AbilityInt": "Intelligence",
+  "WKRM.AbilityWis": "Wisdom",
+  "WKRM.AbilityCha": "Charisma",
+
+  "WKRM.AbilityStrAbbr": "str",
+  "WKRM.AbilityConAbbr": "con",
+  "WKRM.AbilityDexAbbr": "dex",
+  "WKRM.AbilityIntAbbr": "int",
+  "WKRM.AbilityWisAbbr": "wis",
+  "WKRM.AbilityChaAbbr": "cha",
+
+  "WKRM.EffectCreate": "Create Effect",
+  "WKRM.EffectToggle": "Toggle Effect",
+  "WKRM.EffectEdit": "Edit Effect",
+  "WKRM.EffectDelete": "Delete Effect",
+
+  "WKRM.Add": "Add"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "wkrm",
+  "version": "1.0.0",
+  "description": "CSS compiler for the Red Markets system",
+  "scripts": {
+    "build": "gulp build",
+    "compile": "gulp css",
+    "watch": "gulp",
+    "gulp": "gulp"
+  },
+  "browserslist": [
+    "last 3 versions"
+  ],
+  "author": "William Keller",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "gulp": "^4",
+    "gulp-autoprefixer": "^8",
+    "gulp-sass": "^4",
+    "gulp-sourcemaps": "^3"
+  }
+}
