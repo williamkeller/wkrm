@@ -50,7 +50,7 @@
     }
   },
   "Item": {
-    "types": ["item", "feature", "spell", "dependent", "Reference"],
+    "types": ["gear", "dependent", "reference"],
     "templates": {
       "base": {
         "description": ""
@@ -70,10 +70,10 @@
       "spellLevel": 1
     },
     "dependent": {
-      "biography": ""
+      "templates": ["base"]
     },
     "reference": {
-      "biography": ""
+      "templates": ["base"]
     }
   }
 }
