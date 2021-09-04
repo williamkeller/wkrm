@@ -22,3 +22,17 @@
   {{/each}}
 </ol>
 -->
+<h1>Features!</h1>
+<div class="grid grid-3col">
+  <div class="abilities flexcol">
+
+    <div class="abilities flexcol">
+      {{#each data.abilities as |ability key|}}
+      <div class="ability flexrow flex-group-center">
+        <input type="text" name="data.abilities.{{key}}.value" value="{{ability.value}}" data-dtype="Number"/>
+        <label for="data.abilities.{{key}}.value" class="resource-label rollable flexlarge align-left" data-label="{{ability.label}}">{{ability.label}}</label>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</div>

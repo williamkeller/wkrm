@@ -16,7 +16,10 @@ WKRM.foobar = {
   "con": "WKRM.AbilityCon",
   "int": "WKRM.AbilityInt",
   "wis": "WKRM.AbilityWis",
-  "cha": "WKRM.AbilityCha"
+  "spd": "WKRM.AbilitySpd",
+  "adp": "WKRM.AbilityAdp",
+  "cha": "WKRM.AbilityCha",
+  "wil": "WKRM.AbilityWil"
 };
 
 WKRM.abilityAbbreviations = {

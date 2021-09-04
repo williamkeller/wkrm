@@ -39,8 +39,74 @@
         "wis": {
           "value": 10
         },
+
+
+        "str": {
+          "value": 1,
+          "skills": {
+            "unarmed": 0,
+            "melee": 0,
+            "resistence": 0,
+            "special1": 0,
+            "special2": 0,
+            "special3": 0
+          },
+          "specialLabels": [
+            "", "", ""
+          ]
+        },
+        "spd": {
+          "value": 1,
+          "skills": {
+            "shoot": 0,
+            "stealth": 0,
+            "athletics": 0,
+            "special1": 0,
+            "special2": 0,
+            "special3": 0
+          },
+          "specialLabels": [
+            "", "", ""
+          ]
+        },
+        "adp": {
+          "value": 1,
+          "skills": {
+            "awareness": 0,
+            "self-control": 0,
+            "scavenging": 0,
+            "drive": 0,
+            "criminality": 0
+          }
+        },
+        "int": {
+          "value": 1,
+          "skills": {
+            "foresight": 0,
+            "research": 0,
+            "mechanics": 0,
+            "first aid": 0,
+            "special1": 0,
+            "special2": 0,
+            "special3": 0
+          },
+          "specialLabels": [
+            "", "", ""
+          ]
+        },
         "cha": {
-          "value": 10
+          "value": 1,
+          "skills": {
+            "networking": 0,
+            "persuasion": 0,
+            "sensitivity": 0,
+            "deception": 0,
+            "intimidation": 0,
+            "leadership": 0
+          }
+        },
+        "wil": {
+          "value": 1
         }
       }
     },

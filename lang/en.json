@@ -4,7 +4,10 @@
   "WKRM.AbilityDex": "Dexterity",
   "WKRM.AbilityInt": "Intelligence",
   "WKRM.AbilityWis": "Wisdom",
+  "WKRM.AbilitySpd": "Speed",
+  "WKRM.AbilityAdp": "Adaptability",
   "WKRM.AbilityCha": "Charisma",
+  "WKRM.AbilityWil": "Willpower",
 
   "WKRM.AbilityStrAbbr": "str",
   "WKRM.AbilityConAbbr": "con",
