@@ -68,7 +68,7 @@ export class RedmarketsActorSheet extends ActorSheet {
    * @return {undefined}
    */
   _prepareCharacterData(context) {
-    // Handle ability scores.
+    // Set the localized label for each ability
     for (let [k, v] of Object.entries(context.data.abilities)) {
       v.label = game.i18n.localize(CONFIG.WKRM.abilities[k]) ?? k;
     }

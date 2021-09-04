@@ -1,12 +1,12 @@
 // Import document classes.
-import { RedmarketsActor } from "./documents/actor.mjs";
-import { RedmarketsItem } from "./documents/item.mjs";
+import { RedmarketsActor } from "./documents/actor.mjs"
+import { RedmarketsItem } from "./documents/item.mjs"
 // Import sheet classes.
-import { RedmarketsActorSheet } from "./sheets/actor-sheet.mjs";
-import { RedmarketsItemSheet } from "./sheets/item-sheet.mjs";
+import { RedmarketsActorSheet } from "./sheets/actor-sheet.mjs"
+import { RedmarketsItemSheet } from "./sheets/item-sheet.mjs"
 // Import helper/utility classes and constants.
-import { preloadHandlebarsTemplates } from "./helpers/templates.mjs";
-import { WKRM } from "./helpers/config.mjs";
+import { preloadHandlebarsTemplates } from "./helpers/templates.mjs"
+import { WKRM } from "./helpers/config.mjs"
 
 /* -------------------------------------------- */
 /*  Init Hook                                   */
@@ -20,7 +20,7 @@ Hooks.once('init', async function() {
     RedmarketsActor,
     RedmarketsItem,
     rollItemMacro
-  };
+  }
 
   // Add custom constants for configuration.
   CONFIG.WKRM = WKRM;
@@ -30,7 +30,7 @@ Hooks.once('init', async function() {
    * @type {String}
    */
   CONFIG.Combat.initiative = {
-    formula: "1d20 + @abilities.dex.mod",
+    formula: "1d6 + @spd.value",
     decimals: 2
   };
 

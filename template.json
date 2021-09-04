@@ -25,23 +25,6 @@
       },
       "abilities": {
         "str": {
-          "value": 10
-        },
-        "dex": {
-          "value": 10
-        },
-        "con": {
-          "value": 10
-        },
-        "int": {
-          "value": 10
-        },
-        "wis": {
-          "value": 10
-        },
-
-
-        "str": {
           "value": 1,
           "skills": {
             "unarmed": 0,
@@ -113,6 +96,10 @@
     "npc": {
       "templates": ["base"],
       "cr": 0
+    },
+    "casualties": {
+      "mass": 0,
+      "shambles": 0
     }
   },
   "Item": {
@@ -121,6 +108,16 @@
       "base": {
         "description": ""
       }
+    },
+    "gear": {
+      "description": "",
+      "upkeep": 0,
+      "upkeepSpecial": "",
+      "charges": 0,
+      "chargesUsed": 0,
+      "effect": "",
+      "qualities": "",
+      "upgrades": ""
     },
     "item": {
       "templates": ["base"],
@@ -136,10 +133,14 @@
       "spellLevel": 1
     },
     "dependent": {
-      "templates": ["base"]
+      "tagline": "",
+      "description": "",
+      "status": 0
     },
     "reference": {
-      "templates": ["base"]
+      "tagline": "",
+      "description": "",
+      "status": 0
     }
   }
 }
